@@ -34,3 +34,19 @@ These technologies are used to create a **high-performance, animated, and respon
 ---
 
 ## 📂 Project Structure
+
+smritih/
+│
+├── public/
+│ └── Images/
+│
+├── src/
+│ ├── components/
+│ ├── styles/
+│ ├── scripts/
+│ └── main.ts
+│
+├── index.html
+├── package.json
+├── vite.config.ts
+└── README.md
