@@ -27,7 +27,7 @@ The UI/UX design for this project was first created in **Figma** before developm
 
 🔗 **View Figma Design:**  
 ```bash
-[https://your-figma-link-here](https://www.figma.com/design/trlyc0RDZqLk1hrTGadOPb/Untitled?node-id=0-1&m=dev&t=O8Ef5d7xeIJA7x25-1)
+https://your-figma-link-here](https://www.figma.com/design/trlyc0RDZqLk1hrTGadOPb/Untitled?node-id=0-1&m=dev&t=O8Ef5d7xeIJA7x25-1
 ```
 
 The design includes:
