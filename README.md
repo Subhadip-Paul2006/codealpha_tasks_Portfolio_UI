@@ -123,15 +123,16 @@ The goal of this project is to:
 
 ---
 
-## 👨‍💻With Love From
+## 👨‍💻 Author
 
-<b><u><i>Subh</b></u></i>
+**Subh**
 
-B.Tech CSE Student | Frontend Developer
-Interested in UI/UX, Web Development, Database Developer & Architecture, and Startups
+B.Tech CSE Student  
+Frontend Developer | Interested in UI/UX, Web Development, Database Systems, and Startups
 
 ---
 
 ## ⭐ Support
 
-If you like this project, consider starring the repository ⭐
+If you like this project, please consider **starring the repository** ⭐  
+It helps the project reach more developers.
