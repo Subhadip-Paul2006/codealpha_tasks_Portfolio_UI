@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SP | Full-Stack Developer & UI Engineer</title>
+  <meta name="description" content="Senior Full-Stack Developer crafting digital experiences that matter. Specializing in React, Node.js, and modern web technologies." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=DM+Sans:wght@300;400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/src/style.css" />
+</head>
+<body>
+  <!-- Custom Cursor -->
+  <div class="cursor-ring" id="cursorRing"></div>
+  <div class="cursor-dot" id="cursorDot"></div>
+
+  <!-- Noise Overlay -->
+  <div class="noise-overlay"></div>
+
+  <!-- ========== NAVIGATION ========== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-logo">SP<span class="logo-dot">.</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#hero" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#projects" class="nav-link">Work</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <a href="#contact" class="nav-cta">Hire Me</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu Overlay -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul class="mobile-nav-links">
+      <li><a href="#hero" class="mobile-link">Home</a></li>
+      <li><a href="#about" class="mobile-link">About</a></li>
+      <li><a href="#projects" class="mobile-link">Work</a></li>
+      <li><a href="#skills" class="mobile-link">Skills</a></li>
+      <li><a href="#contact" class="mobile-link">Contact</a></li>
+      <li><a href="#contact" class="mobile-cta">Hire Me</a></li>
+    </ul>
+  </div>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <div class="glow-blob blob-1"></div>
+      <div class="glow-blob blob-2"></div>
+      <div class="glow-blob blob-3"></div>
+      <div class="grid-dots"></div>
+    </div>
+    <div class="hero-container">
+      <div class="hero-content">
+        <span class="hero-overline">Available for freelance · 2025</span>
+        <h1 class="hero-title">
+          <span class="title-line">I Build Digital</span>
+          <span class="title-line">Experiences That</span>
+          <span class="title-line gradient-text">Actually Matter.</span>
+        </h1>
+        <p class="hero-subtitle">Full-Stack Developer · UI Engineer · Open Source Contributor</p>
+        <div class="hero-ctas">
+          <a href="#projects" class="btn btn-primary">View My Work <span class="btn-arrow">→</span></a>
+          <a href="#" class="btn btn-ghost">Download CV</a>
+        </div>
+        <p class="hero-proof">Trusted by <strong>50+</strong> clients · <strong>120+</strong> projects delivered</p>
+      </div>
+      <div class="hero-visual">
+        <div class="mesh-sphere">
+          <div class="sphere-glow"></div>
+          <div class="sphere-core"></div>
+          <div class="orbit orbit-1"><span class="orbit-icon">⚛</span></div>
+          <div class="orbit orbit-2"><span class="orbit-icon">◆</span></div>
+          <div class="orbit orbit-3"><span class="orbit-icon">⬡</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT ========== -->
+  <section class="section about" id="about">
+    <div class="section-container">
+      <div class="about-grid">
+        <div class="about-visual anim-item">
+          <div class="about-photo">
+            <div class="photo-placeholder">SP</div>
+          </div>
+          <div class="about-badge">3+ Years Experience</div>
+          <div class="about-stats">
+            <div class="stat-card glass-card">
+              <span class="stat-number">12+</span>
+              <span class="stat-label">Projects</span>
+            </div>
+            <div class="stat-card glass-card">
+              <span class="stat-number">8+</span>
+              <span class="stat-label">Clients</span>
+            </div>
+            <div class="stat-card glass-card">
+              <span class="stat-number">100%</span>
+              <span class="stat-label">Satisfaction</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-content anim-item">
+          <span class="section-label">// About Me</span>
+          <h2 class="section-heading">Crafting Code with <span class="gradient-text">Intention</span></h2>
+          <p class="about-text">I'm a passionate full-stack developer who believes great software is built at the intersection of <span class="highlight">clean architecture</span> and <span class="highlight">beautiful design</span>. With 3+ years of experience, I specialize in building web applications that are both technically robust and visually stunning.</p>
+          <p class="about-text">From concept to deployment, I obsess over every pixel and every line of code. My goal? To create digital experiences that users <span class="highlight">actually love</span> to use.</p>
+          <div class="about-cards">
+            <div class="about-card glass-card">
+              <span class="about-card-icon">🧠</span>
+              <h4>Think</h4>
+              <p>Research, strategize, and architect solutions</p>
+            </div>
+            <div class="about-card glass-card">
+              <span class="about-card-icon">🛠</span>
+              <h4>Build</h4>
+              <p>Clean code, modern stack, pixel-perfect UI</p>
+            </div>
+            <div class="about-card glass-card">
+              <span class="about-card-icon">🚀</span>
+              <h4>Ship</h4>
+              <p>Deploy, iterate, and deliver real value</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SKILLS ========== -->
+  <section class="section skills" id="skills">
+    <div class="section-container">
+      <h2 class="section-heading center anim-item">My Tech <span class="gradient-text">Arsenal</span></h2>
+      <div class="skills-grid anim-item">
+        <div class="skill-card glass-card" data-category="Frontend">
+          <div class="skill-card-header">
+            <span class="skill-icon">⟨/⟩</span>
+            <h3>Frontend</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">React</span><span class="skill-tag">Next.js</span>
+            <span class="skill-tag">TypeScript</span><span class="skill-tag">Tailwind</span>
+          </div>
+          <div class="skill-rings">
+            <div class="ring-item"><svg viewBox="0 0 36 36"><circle class="ring-bg" cx="18" cy="18" r="15.9"/><circle class="ring-fill" cx="18" cy="18" r="15.9" data-percent="92"/></svg><span>92%</span></div>
+            <div class="ring-item"><svg viewBox="0 0 36 36"><circle class="ring-bg" cx="18" cy="18" r="15.9"/><circle class="ring-fill" cx="18" cy="18" r="15.9" data-percent="88"/></svg><span>88%</span></div>
+            <div class="ring-item"><svg viewBox="0 0 36 36"><circle class="ring-bg" cx="18" cy="18" r="15.9"/><circle class="ring-fill" cx="18" cy="18" r="15.9" data-percent="90"/></svg><span>90%</span></div>
+            <div class="ring-item"><svg viewBox="0 0 36 36"><circle class="ring-bg" cx="18" cy="18" r="15.9"/><circle class="ring-fill" cx="18" cy="18" r="15.9" data-percent="85"/></svg><span>85%</span></div>
+          </div>
+        </div>
+        <div class="skill-card glass-card" data-category="Backend">
+          <div class="skill-card-header">
+            <span class="skill-icon">⛁</span>
+            <h3>Backend</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Node.js</span><span class="skill-tag">Python</span>
+            <span class="skill-tag">PostgreSQL</span><span class="skill-tag">Redis</span>
+          </div>
+          <div class="skill-rings">
+            <div class="ring-item"><svg viewBox="0 0 36 36"><circle class="ring-bg" cx="18" cy="18" r="15.9"/><circle class="ring-fill" cx="18" cy="18" r="15.9" data-percent="88"/></svg><span>88%</span></div>
+            <div class="ring-item"><svg viewBox="0 0 36 36"><circle class="ring-bg" cx="18" cy="18" r="15.9"/><circle class="ring-fill" cx="18" cy="18" r="15.9" data-percent="82"/></svg><span>82%</span></div>
+            <div class="ring-item"><svg viewBox="0 0 36 36"><circle class="ring-bg" cx="18" cy="18" r="15.9"/><circle class="ring-fill" cx="18" cy="18" r="15.9" data-percent="85"/></svg><span>85%</span></div>
+            <div class="ring-item"><svg viewBox="0 0 36 36"><circle class="ring-bg" cx="18" cy="18" r="15.9"/><circle class="ring-fill" cx="18" cy="18" r="15.9" data-percent="78"/></svg><span>78%</span></div>
+          </div>
+        </div>
+        <div class="skill-card glass-card" data-category="DevOps">
+          <div class="skill-card-header">
+            <span class="skill-icon">⚙</span>
+            <h3>DevOps & Tools</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Docker</span><span class="skill-tag">AWS</span>
+            <span class="skill-tag">Git</span><span class="skill-tag">CI/CD</span>
+          </div>
+          <div class="skill-rings">
+            <div class="ring-item"><svg viewBox="0 0 36 36"><circle class="ring-bg" cx="18" cy="18" r="15.9"/><circle class="ring-fill" cx="18" cy="18" r="15.9" data-percent="80"/></svg><span>80%</span></div>
+            <div class="ring-item"><svg viewBox="0 0 36 36"><circle class="ring-bg" cx="18" cy="18" r="15.9"/><circle class="ring-fill" cx="18" cy="18" r="15.9" data-percent="75"/></svg><span>75%</span></div>
+            <div class="ring-item"><svg viewBox="0 0 36 36"><circle class="ring-bg" cx="18" cy="18" r="15.9"/><circle class="ring-fill" cx="18" cy="18" r="15.9" data-percent="90"/></svg><span>90%</span></div>
+            <div class="ring-item"><svg viewBox="0 0 36 36"><circle class="ring-bg" cx="18" cy="18" r="15.9"/><circle class="ring-fill" cx="18" cy="18" r="15.9" data-percent="78"/></svg><span>78%</span></div>
+          </div>
+        </div>
+        <div class="skill-card glass-card" data-category="Design">
+          <div class="skill-card-header">
+            <span class="skill-icon">◎</span>
+            <h3>Design & UI</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Figma</span><span class="skill-tag">After Effects</span>
+            <span class="skill-tag">Framer</span><span class="skill-tag">Photoshop</span>
+          </div>
+          <div class="skill-rings">
+            <div class="ring-item"><svg viewBox="0 0 36 36"><circle class="ring-bg" cx="18" cy="18" r="15.9"/><circle class="ring-fill" cx="18" cy="18" r="15.9" data-percent="85"/></svg><span>85%</span></div>
+            <div class="ring-item"><svg viewBox="0 0 36 36"><circle class="ring-bg" cx="18" cy="18" r="15.9"/><circle class="ring-fill" cx="18" cy="18" r="15.9" data-percent="70"/></svg><span>70%</span></div>
+            <div class="ring-item"><svg viewBox="0 0 36 36"><circle class="ring-bg" cx="18" cy="18" r="15.9"/><circle class="ring-fill" cx="18" cy="18" r="15.9" data-percent="78"/></svg><span>78%</span></div>
+            <div class="ring-item"><svg viewBox="0 0 36 36"><circle class="ring-bg" cx="18" cy="18" r="15.9"/><circle class="ring-fill" cx="18" cy="18" r="15.9" data-percent="75"/></svg><span>75%</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="marquee-section anim-item">
+        <p class="marquee-label">Also worked with:</p>
+        <div class="marquee-track">
+          <div class="marquee-content">
+            <span class="marquee-item">Vue.js</span><span class="marquee-item">Angular</span>
+            <span class="marquee-item">MongoDB</span><span class="marquee-item">GraphQL</span>
+            <span class="marquee-item">Firebase</span><span class="marquee-item">Sass</span>
+            <span class="marquee-item">Webpack</span><span class="marquee-item">Jest</span>
+            <span class="marquee-item">Cypress</span><span class="marquee-item">Prisma</span>
+            <span class="marquee-item">Supabase</span><span class="marquee-item">Vercel</span>
+            <span class="marquee-item">Vue.js</span><span class="marquee-item">Angular</span>
+            <span class="marquee-item">MongoDB</span><span class="marquee-item">GraphQL</span>
+            <span class="marquee-item">Firebase</span><span class="marquee-item">Sass</span>
+            <span class="marquee-item">Webpack</span><span class="marquee-item">Jest</span>
+            <span class="marquee-item">Cypress</span><span class="marquee-item">Prisma</span>
+            <span class="marquee-item">Supabase</span><span class="marquee-item">Vercel</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PROJECTS ========== -->
+  <section class="section projects" id="projects">
+    <div class="section-container">
+      <div class="section-header anim-item">
+        <h2 class="section-heading">Selected <span class="gradient-text">Work</span></h2>
+        <span class="project-count">06</span>
+      </div>
+      <div class="filter-tabs anim-item">
+        <button class="filter-tab active" data-filter="all">All</button>
+        <button class="filter-tab" data-filter="webapp">Web App</button>
+        <button class="filter-tab" data-filter="uiux">UI/UX</button>
+        <button class="filter-tab" data-filter="opensource">Open Source</button>
+      </div>
+      <div class="projects-grid anim-item">
+        <div class="project-card" data-category="webapp">
+          <div class="project-thumb" style="background:linear-gradient(135deg,#1a1a2e,#16213e)"></div>
+          <div class="project-overlay">
+            <span class="project-num">01</span>
+            <h3>E-Commerce Dashboard</h3>
+            <p>Real-time analytics platform for online stores</p>
+            <div class="project-tags"><span>React</span><span>Node.js</span><span>D3.js</span></div>
+            <div class="project-actions">
+              <a href="#" class="btn-sm btn-primary">Live Demo ↗</a>
+              <a href="#" class="btn-sm btn-ghost">GitHub &lt;/&gt;</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card" data-category="webapp">
+          <div class="project-thumb" style="background:linear-gradient(135deg,#0f0c29,#302b63)"></div>
+          <div class="project-overlay">
+            <span class="project-num">02</span>
+            <h3>AI Chat Platform</h3>
+            <p>Conversational AI with context-aware responses</p>
+            <div class="project-tags"><span>Next.js</span><span>OpenAI</span><span>Socket.io</span></div>
+            <div class="project-actions">
+              <a href="#" class="btn-sm btn-primary">Live Demo ↗</a>
+              <a href="#" class="btn-sm btn-ghost">GitHub &lt;/&gt;</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card tall" data-category="uiux">
+          <div class="project-thumb" style="background:linear-gradient(135deg,#1a0a2e,#2d1b69)"></div>
+          <div class="project-overlay">
+            <span class="project-num">03</span>
+            <h3>Portfolio Generator</h3>
+            <p>Drag-and-drop portfolio builder with themes</p>
+            <div class="project-tags"><span>Vue.js</span><span>Firebase</span><span>Figma</span></div>
+            <div class="project-actions">
+              <a href="#" class="btn-sm btn-primary">Live Demo ↗</a>
+              <a href="#" class="btn-sm btn-ghost">GitHub &lt;/&gt;</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card" data-category="webapp">
+          <div class="project-thumb" style="background:linear-gradient(135deg,#0a192f,#112240)"></div>
+          <div class="project-overlay">
+            <span class="project-num">04</span>
+            <h3>Fitness Tracker</h3>
+            <p>Health monitoring with wearable integration</p>
+            <div class="project-tags"><span>React Native</span><span>GraphQL</span><span>AWS</span></div>
+            <div class="project-actions">
+              <a href="#" class="btn-sm btn-primary">Live Demo ↗</a>
+              <a href="#" class="btn-sm btn-ghost">GitHub &lt;/&gt;</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card" data-category="opensource">
+          <div class="project-thumb" style="background:linear-gradient(135deg,#1a1a2e,#0d1b2a)"></div>
+          <div class="project-overlay">
+            <span class="project-num">05</span>
+            <h3>DevKit CLI</h3>
+            <p>Open-source CLI toolkit for developers</p>
+            <div class="project-tags"><span>Node.js</span><span>TypeScript</span><span>npm</span></div>
+            <div class="project-actions">
+              <a href="#" class="btn-sm btn-primary">Live Demo ↗</a>
+              <a href="#" class="btn-sm btn-ghost">GitHub &lt;/&gt;</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card" data-category="uiux">
+          <div class="project-thumb" style="background:linear-gradient(135deg,#150f2d,#1e1545)"></div>
+          <div class="project-overlay">
+            <span class="project-num">06</span>
+            <h3>Blog CMS</h3>
+            <p>Headless CMS with markdown editor</p>
+            <div class="project-tags"><span>Next.js</span><span>Prisma</span><span>PostgreSQL</span></div>
+            <div class="project-actions">
+              <a href="#" class="btn-sm btn-primary">Live Demo ↗</a>
+              <a href="#" class="btn-sm btn-ghost">GitHub &lt;/&gt;</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FEATURED PROJECT ========== -->
+  <section class="section featured" id="featured">
+    <div class="section-container">
+      <div class="featured-grid anim-item">
+        <div class="featured-info">
+          <span class="section-label">Featured Project</span>
+          <h2 class="section-heading">NexGen <span class="gradient-text">Dashboard</span></h2>
+          <p class="featured-desc">A comprehensive real-time analytics dashboard that transforms complex data into actionable insights for enterprise teams.</p>
+          <div class="featured-flow">
+            <div class="flow-item"><span class="flow-label">Problem</span><p>Teams struggled with fragmented data across 5+ platforms</p></div>
+            <div class="flow-line"></div>
+            <div class="flow-item"><span class="flow-label">Solution</span><p>Unified dashboard with real-time sync and custom views</p></div>
+            <div class="flow-line"></div>
+            <div class="flow-item"><span class="flow-label">Result</span><p>40% faster decisions, adopted by 200+ enterprise users</p></div>
+          </div>
+          <div class="featured-tags">
+            <span class="skill-tag">React</span><span class="skill-tag">TypeScript</span>
+            <span class="skill-tag">Node.js</span><span class="skill-tag">PostgreSQL</span><span class="skill-tag">AWS</span>
+          </div>
+          <div class="hero-ctas">
+            <a href="#" class="btn btn-primary">View Live ↗</a>
+            <a href="#" class="btn btn-ghost">View Code &lt;/&gt;</a>
+          </div>
+        </div>
+        <div class="featured-mockup">
+          <div class="mockup-browser">
+            <div class="browser-bar"><span></span><span></span><span></span></div>
+            <div class="browser-content" style="background:linear-gradient(135deg,#0f0c29,#302b63,#24243e)"></div>
+          </div>
+          <div class="mockup-glow"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== EXPERIENCE ========== -->
+  <section class="section experience" id="experience">
+    <div class="section-container">
+      <h2 class="section-heading center anim-item">My <span class="gradient-text">Journey</span></h2>
+      <div class="timeline-grid anim-item">
+        <div class="timeline-col">
+          <h3 class="timeline-title">Work Experience</h3>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-card glass-card">
+                <span class="timeline-date">2024 — Present</span>
+                <h4>Senior Frontend Developer</h4>
+                <p class="timeline-company">TechCorp Inc.</p>
+                <ul><li>Led redesign of flagship product, improving UX metrics by 35%</li><li>Architected micro-frontend system serving 1M+ users</li></ul>
+                <div class="timeline-tags"><span>React</span><span>TypeScript</span><span>AWS</span></div>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-card glass-card">
+                <span class="timeline-date">2022 — 2024</span>
+                <h4>Full-Stack Developer</h4>
+                <p class="timeline-company">StartupXYZ</p>
+                <ul><li>Built RESTful APIs handling 500K+ daily requests</li><li>Implemented CI/CD pipeline reducing deploy time by 60%</li></ul>
+                <div class="timeline-tags"><span>Node.js</span><span>MongoDB</span><span>Docker</span></div>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-card glass-card">
+                <span class="timeline-date">2021 — 2022</span>
+                <h4>Junior Developer</h4>
+                <p class="timeline-company">WebAgency Pro</p>
+                <ul><li>Developed 15+ responsive client websites</li><li>Introduced component library adopted across 3 teams</li></ul>
+                <div class="timeline-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="timeline-col">
+          <h3 class="timeline-title">Education</h3>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-card glass-card">
+                <span class="timeline-date">2018 — 2022</span>
+                <h4>B.Tech Computer Science</h4>
+                <p class="timeline-company">XYZ University</p>
+                <ul><li>Graduated with First Class Honours</li><li>Led university coding club & hackathon team</li></ul>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-card glass-card">
+                <span class="timeline-date">2021</span>
+                <h4>Advanced Web Development</h4>
+                <p class="timeline-company">Online Bootcamp</p>
+                <ul><li>Full-stack certification with capstone project</li><li>Specialized in React ecosystem & cloud deployment</li></ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="resume-cta anim-item">
+        <a href="#" class="btn btn-primary btn-lg">↓ Download Resume</a>
+        <span class="open-badge"><span class="pulse-dot"></span> Open to work</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SERVICES ========== -->
+  <section class="section services" id="services">
+    <div class="section-container">
+      <h2 class="section-heading center anim-item">What I <span class="gradient-text">Offer</span></h2>
+      <div class="services-grid anim-item">
+        <div class="service-card glass-card">
+          <span class="service-bg-num">01</span>
+          <div class="service-icon">⟨/⟩</div>
+          <h3>Web Development</h3>
+          <p>From responsive websites to complex web applications built with modern frameworks.</p>
+          <ul><li>Custom Development</li><li>API Integration</li><li>Performance Optimization</li></ul>
+        </div>
+        <div class="service-card glass-card">
+          <span class="service-bg-num">02</span>
+          <div class="service-icon">◎</div>
+          <h3>UI/UX Design</h3>
+          <p>Pixel-perfect interfaces and design systems that users genuinely enjoy using.</p>
+          <ul><li>Wireframing & Prototyping</li><li>Design Systems</li><li>User Research</li></ul>
+        </div>
+        <div class="service-card glass-card">
+          <span class="service-bg-num">03</span>
+          <div class="service-icon">📱</div>
+          <h3>Mobile Development</h3>
+          <p>Cross-platform mobile applications that perform beautifully on every device.</p>
+          <ul><li>React Native Apps</li><li>Progressive Web Apps</li><li>App Store Deployment</li></ul>
+        </div>
+        <div class="service-card glass-card">
+          <span class="service-bg-num">04</span>
+          <div class="service-icon">⚡</div>
+          <h3>Technical Consulting</h3>
+          <p>Architecture reviews and strategic guidance for scaling development teams.</p>
+          <ul><li>Code Audits</li><li>Tech Stack Advisory</li><li>Team Training</li></ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== TESTIMONIALS ========== -->
+  <section class="section testimonials" id="testimonials">
+    <div class="section-container">
+      <h2 class="section-heading center anim-item">Kind <span class="gradient-text">Words</span></h2>
+      <div class="testimonial-carousel anim-item">
+        <div class="testimonial-track" id="testimonialTrack">
+          <div class="testimonial-card glass-card">
+            <span class="quote-mark">"</span>
+            <p>SP transformed our outdated platform into a modern, performant application. His attention to detail and proactive communication made the entire process seamless.</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">AK</div>
+              <div><strong>Arjun Kumar</strong><span>CTO, TechStartup Inc.</span></div>
+            </div>
+            <div class="stars">★★★★★</div>
+          </div>
+          <div class="testimonial-card glass-card active">
+            <span class="quote-mark">"</span>
+            <p>Working with SP was a game-changer for our product. He didn't just write code — he understood our business goals and delivered a solution that exceeded expectations.</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">PR</div>
+              <div><strong>Priya Reddy</strong><span>Product Manager, ScaleUp Co.</span></div>
+            </div>
+            <div class="stars">★★★★★</div>
+          </div>
+          <div class="testimonial-card glass-card">
+            <span class="quote-mark">"</span>
+            <p>Exceptional developer with a rare combination of technical depth and design sensibility. SP delivered our MVP two weeks ahead of schedule with zero critical bugs.</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">MJ</div>
+              <div><strong>Mark Jensen</strong><span>Founder, DevFlow Labs</span></div>
+            </div>
+            <div class="stars">★★★★★</div>
+          </div>
+        </div>
+        <div class="carousel-nav">
+          <button class="carousel-btn" id="prevBtn">←</button>
+          <div class="carousel-dots" id="carouselDots">
+            <span class="dot"></span><span class="dot active"></span><span class="dot"></span>
+          </div>
+          <button class="carousel-btn" id="nextBtn">→</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section class="section contact" id="contact">
+    <div class="section-container">
+      <h2 class="section-heading center anim-item">Let's Build <span class="gradient-text">Together</span></h2>
+      <div class="contact-grid anim-item">
+        <div class="contact-info">
+          <p class="contact-tagline">Got a project in mind? Let's make it happen. I'm always open to discussing new opportunities.</p>
+          <a href="mailto:hello@spdev.com" class="contact-email">hello@spdev.com</a>
+          <div class="social-links">
+            <a href="#" class="social-pill glass-card"><span>⊚</span> GitHub</a>
+            <a href="#" class="social-pill glass-card"><span>◈</span> LinkedIn</a>
+            <a href="#" class="social-pill glass-card"><span>◉</span> Twitter</a>
+            <a href="#" class="social-pill glass-card"><span>◎</span> Dribbble</a>
+          </div>
+          <div class="availability">
+            <span class="pulse-dot"></span> Available for work
+          </div>
+        </div>
+        <form class="contact-form glass-card" id="contactForm">
+          <div class="form-group">
+            <input type="text" id="name" required />
+            <label for="name">Your Name</label>
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" required />
+            <label for="email">Your Email</label>
+          </div>
+          <div class="form-group">
+            <select id="projectType" required>
+              <option value="" disabled selected>Project Type</option>
+              <option>Web Application</option>
+              <option>Mobile App</option>
+              <option>UI/UX Design</option>
+              <option>Consulting</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <textarea id="message" rows="4" required></textarea>
+            <label for="message">Your Message</label>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">Send Message →</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer" id="footer">
+    <div class="footer-gradient"></div>
+    <div class="footer-container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#" class="nav-logo">SP<span class="logo-dot">.</span></a>
+          <p>Building digital experiences that actually matter.</p>
+        </div>
+        <div class="footer-links">
+          <a href="#hero">Home</a><a href="#about">About</a>
+          <a href="#projects">Work</a><a href="#skills">Skills</a><a href="#contact">Contact</a>
+        </div>
+        <div class="footer-social">
+          <a href="#" class="social-icon">GH</a>
+          <a href="#" class="social-icon">LI</a>
+          <a href="#" class="social-icon">TW</a>
+          <a href="#" class="social-icon">DR</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2025 SP. All rights reserved.</span>
+        <span>Designed & Built by Subhadip Paul</span>
+        <a href="#hero" class="back-to-top">Back to Top ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
