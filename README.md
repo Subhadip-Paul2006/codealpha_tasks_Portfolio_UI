@@ -35,6 +35,7 @@ These technologies are used to create a **high-performance, animated, and respon
 
 ## 📂 Project Structure
 
+```bash
 smritih/
 │
 ├── public/
@@ -50,3 +51,4 @@ smritih/
 ├── package.json
 ├── vite.config.ts
 └── README.md
+```
