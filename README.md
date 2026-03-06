@@ -65,6 +65,16 @@ Navigate to the project folder:
 cd smritih
 ```
 
+Run the development server:
+```bash
+npm run dev
+```
+
+Open in your browser:
+```bash
+http://localhost:5173
+```
+
 Install dependencies:
 ```bash
 npm install
