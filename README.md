@@ -59,3 +59,13 @@ Clone the repository:
 ```bash
 git clone https://github.com/your-username/smritih.git
 ```
+
+Navigate to the project folder:
+```bash
+cd smritih
+```
+
+Install dependencies:
+```bash
+npm install
+```
