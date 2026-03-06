@@ -52,3 +52,10 @@ smritih/
 ├── vite.config.ts
 └── README.md
 ```
+## ⚙ Installation & Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/smritih.git
+```
