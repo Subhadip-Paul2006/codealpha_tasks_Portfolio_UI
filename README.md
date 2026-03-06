@@ -21,6 +21,23 @@ These technologies are used to create a **high-performance, animated, and respon
 
 ---
 
+## 🎨 Figma Design
+
+The UI/UX design for this project was first created in **Figma** before development.
+
+🔗 **View Figma Design:**  
+```bash
+https://your-figma-link-here
+```
+
+The design includes:
+- Complete UI layout planning
+- Color system and typography
+- Component-based structure
+- Responsive design planning
+
+---
+
 ## ✨ Features
 
 - 🎨 Modern premium UI design  
