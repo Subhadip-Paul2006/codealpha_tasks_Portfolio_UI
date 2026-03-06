@@ -69,6 +69,9 @@ smritih/
 ├── vite.config.ts
 └── README.md
 ```
+
+---
+
 ## ⚙ Installation & Setup
 
 Clone the repository:
@@ -96,3 +99,39 @@ Install dependencies:
 ```bash
 npm install
 ```
+
+---
+
+## 📌 Purpose of the Project
+
+The goal of this project is to:
+
+- Practice modern frontend development
+- Explore advanced UI animations
+- Implement 3D interactions on web interfaces
+- Build a portfolio-ready project for showcasing frontend skills
+
+---
+
+## 🔮 Future Improvements
+
+- Image filtering and search
+- Dynamic gallery loading
+- Dark / light theme toggle
+- Improved animation transitions
+- Performance optimization
+
+---
+
+## 👨‍💻With Love From
+
+<b><u><i>Subh</b></u></i>
+
+B.Tech CSE Student | Frontend Developer
+Interested in UI/UX, Web Development, Database Developer & Architecture, and Startups
+
+---
+
+## ⭐ Support
+
+If you like this project, consider starring the repository ⭐
